@@ -1,0 +1,126 @@
+section#main{
+    width: 990px;
+    margin: auto;
+}
+section#cat1{
+    width: 215px;
+    float: left;
+    margin-top: 15px;
+    font-weight: bold;
+}
+section#cat1 #cat-title{
+    padding: 12px;
+    background-color: #96c11f;
+    color: #ffffff;
+    text-align: center;
+}
+section#cat1 li{
+    color: #666666;
+    padding: 7px 0 7px 30px;
+    border-bottom: 1px solid #cccccc;
+}
+section#cat2{
+    float: left;
+    margin-top: 15px;
+}
+section#cat3{
+    width: 236px;
+    float: left;
+    margin-top: 15px;
+}
+section#cat3 #latest-notice{
+    width: 239px; height: 161px;
+    background-image: url(../img/latest_notice.gif);
+    background-repeat: no-repeat;
+}
+section#cat3 #latest-notice ul{
+    padding: 42px 0 0 30px;
+    list-style-image: url(../img/blue_dot.gif);
+}
+section#cat3 #week-event{
+    width: 239px;height: 191px;
+    margin-top: 11px;
+    background-image: url(../img/week_event.gif);
+    background-repeat: no-repeat;
+}
+section#cat3 #week-event img{
+    margin: 58px 0 0 22px;
+}
+section#special-shop{
+    width: 592px; height: 389px;
+    margin-top: 50px;
+    float: left;
+    background-image: url(../img/special_shop.gif);
+    background-repeat: no-repeat;
+    /* border:  1px solid red; */
+}
+section#special-shop ul{
+    margin: 60px 0 0 25px;
+}
+section#special-shop li{
+    display: inline;
+    margin: 0 2px;
+}
+section#special-shop img{
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+section#special-banner{
+    float: left;
+    margin: 19px 0 0 5px;
+}
+section#special-banner div{
+    width: 392px; height: 129px;
+    margin-top: 1px;
+}
+section #special-banner #banner1{
+    background-image: url(../img/landscape.gif);
+    background-repeat: no-repeat;
+}
+section #special-banner #banner2{
+    background-image: url(../img/point_wallpaper.gif);
+    background-repeat: no-repeat;
+}
+section #special-banner #banner3{
+    background-image: url(../img/children.gif);
+    background-repeat: no-repeat;
+}
+section #special-banner ul{
+    padding: 6px 0 0 132px;
+}
+section #special-banner li{
+    display: inline;
+}
+#new{
+    height: 650px;
+    margin-top: 20px;
+    border-top: 2px solid #9bc32a;
+    /* border: 2px solid #0bc32a; */
+}
+#new h3{
+    margin: 20px 0 0 35px;
+}
+#new h3 span{
+    color: #80a727;
+}
+#new .item{
+    float: left;
+    text-align: center;
+    margin: 20px 0 0 32px;
+}
+#new .item .sub{
+    margin-top: 10px;
+    color: #80a727;
+}
+#new .item .comment{
+    margin-top: 5px;
+    color: #888888;
+}
+#new .item .price{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+
+

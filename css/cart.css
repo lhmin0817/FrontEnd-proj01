@@ -1,0 +1,145 @@
+#left{
+    width: 215px;
+    float: left;
+    margin-top: 15px;
+    font-weight: bold;
+}
+#cat-title{
+    padding: 12px;
+    background-color: #96c11f;
+    color: #ffffff;
+    text-align: center;
+}
+#left li{
+    column-rule: #666666;
+    padding: 7px 0 7px 30px;
+    border-bottom:1px solid#cccccc;
+    border-left:1px solid#cccccc;
+    border-right:1px solid#cccccc;
+}
+#customer{
+    width: 213px; height: 100px;
+    margin-top: 20px;
+    border: 1px solid#cccccc;
+    background-color: #ffffff;
+}
+#customer img{
+    margin: 5px 0 0 5px;
+}
+#right{
+    width: 750px;
+    float: right;
+    margin-top: 20px;
+}
+#right h2#cart-title{
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #000000;
+}
+#right h2#cart-title span{
+    color: #688912;
+}
+#right #process{
+    margin: 15px 0 0 10px;
+}
+#right table{
+    width: 100%;
+    margin: 10px 0 0 0;
+    border-collapse: collapse;
+    border-top: 2px solid #688912;
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+#right .title{
+    height: 50px;
+    background-color: #e9e8e9;
+}
+#right th{
+    padding: 10px;
+    border-bottom: 2xp solid #cccccc;
+}
+#right tr.items{
+    height: 80px;
+    border-bottom: 2px solid #cccccc;
+}
+#right tr.items td{
+    padding: 5px;
+    border-bottom: 2px solid #cccccc;
+}
+#right tr.items .col1{
+    width: 50px;
+    text-align: center;
+}
+#right tr.items .col2{
+    width: 300px;
+}
+#right tr.items .col3{
+    width: 60px;
+    text-align: center;
+}
+#right tr.items .col4{
+    width: 80px;
+    text-align: center;
+}
+#right tr.items .col5{
+    width: 80px;
+    text-align: center;
+}
+#right tr.items .col6{
+    width: 80px;
+    text-align: center;
+}
+#right tr.items .col7{
+    width: 80px;
+    text-align: center;
+}
+#right tr.total-price{
+    height: 25px;
+}
+#right tr.total-price td{
+    text-align: right;
+    padding: 10px;
+}
+#right tr.order-status-box{
+    height: 100px;
+    background-color: #e9e8e9;
+    border-top: #cccccc;
+}
+#right .order-status-box td{
+    vertical-align: top;
+}  
+#right .order-status{
+    position: relative;
+}
+#right .order-status p{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+#right .order-status div{
+    position: absolute;
+    top: 20px;
+    left: 480px;
+}
+#right .order-status li{
+    display: inline-block;
+    margin: 2px 0;
+}
+#right .order-status .col1{
+    width: 150px;
+    text-align: right;
+}
+#right .order-status .col2{
+    width: 80px;
+    text-align: right;
+}
+#right table span{
+    font-weight: bold;
+}
+#right #order-buttons{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+#right #order-buttons li{
+    display: inline;
+}

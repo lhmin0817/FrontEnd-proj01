@@ -1,0 +1,98 @@
+header{
+    height: 128px;
+}
+header #top{
+    width: 990px;
+    margin: 0 auto;
+}
+header #logo{
+    float: left;
+    margin: 30px 0 0 0;
+}
+header #search{
+    float: left;
+    font-size: 12px; font-family: "Sans-serif";
+    color: #96c11f;
+    margin: 40px 0 0 150px;
+}
+header #search-title{
+    float: left;
+    margin-top: 6px;
+}
+header #search-form{
+    float: left;
+}
+header #search-form input{
+    width: 80px; height: 16px; 
+    background-color: #f2f0f0;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 5px;
+}
+#search-button{
+    float: left;
+    margin: 3px 0 0 3px;
+}
+header #top-menu{
+    float: right;
+    margin-top: 45px;
+}
+header #top-menu a:link{
+    font-size: 11px;
+    color: #888888;
+}
+header #top-menu a:visited{
+    font-size: 11px;
+    color: #888888;
+}
+header #top-menu a:hover{
+    font-size: 11px;
+    color: #888888;
+}
+header #top-menu a:active{
+    font-size: 11px;
+    color: #888888;
+}
+header #top-menu.green a:link {
+    color: #96c11f;
+}
+header #top-menu.green a:visited {
+    color: #96c11f;
+}
+header #top-menu.green a:hover {
+    color: #96c11f;
+}
+header #top-menu.green a:active {
+    color: #96c11f;
+}
+header #top-menu li{
+    display: inline;
+    margin-left: 10px;
+}
+header #main-menu{
+    height: 38px;
+    margin-top: 15px;
+    background-color: #4e4c4d;
+}
+
+header #main-menu ul{
+    width: 990px;
+    margin: auto;
+    padding-top: 12px;
+    text-align: center;
+}
+header #main-menu li{
+    display: inline;
+    margin: 0 57px;
+}
+header #main-menu a:link{
+    color: #ffffff;
+}
+#main-menu a:visited {
+    color: #ffffff;
+}
+#main-menu a:hover{
+    color: #ffffff;
+}
+#main-menu a:active{
+    color: #ffffff;
+}
