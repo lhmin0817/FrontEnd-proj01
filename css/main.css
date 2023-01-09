@@ -1,6 +1,7 @@
 section#main{
     width: 990px;
     margin: auto;
+    background-image: url(img/images.jpg);
 }
 section#cat1{
     width: 215px;
