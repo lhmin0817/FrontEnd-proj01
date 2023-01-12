@@ -77,69 +77,57 @@
           class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
         >
           <div class="col-lg-8 align-self-end">
-            <h1 class="text-white font-weight-bold">123</h1>
+            <h1 class="text-white font-weight-bold">coffe</h1>
             <hr class="divider" />
           </div>
           <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 mb-5">2</p>
+            <p class="text-white-75 mb-5">
+              예약을 해서 원하는 시간에 픽업을 할 수 있습니다.
+            </p>
             <a class="btn btn-primary btn-xl" href="#about">예약</a>
           </div>
         </div>
       </div>
     </header>
     <!-- About-->
-    <section id="about" style="background-color: #444444">
+    <section id="about">
       <table
-        class="about-table"
-        align="center"
-        style="
-          width: 600px;
-          border: 1px;
-          height: 500px;
-          background-color: white;
-          margin-left: 100px;
-        "
-      >
-        <tr style="border: 1px solid red">
+        class="about-table" style="width: 250px; height: 300px; margin-top: 5px; background-color: rgba(210, 231, 249, 0.985); border-radius: 10px;"  align="center">
+        <tr>
           <td align="center" colspan="4">coffe 예약</td>
         </tr>
-        <tr style="border: 1px solid red">
-          <td style="border: 1px solid red; width: 110px" align="center">
+        <tr>
+          <td class="about-table-td-a" style="width: 125px; height: 200px;" >
             픽업 지역
           </td>
-          <td style="border: 1px solid red" align="center">
-            <input
-              type="text"
-              name="picup01"
-              placeholder="서울"
-              style="width: 110px; height: 20px"
-            /><img style="margin-left: 10px;" src="../img/btn_search.gif" href="#" />
+          <td align="center" style="width: 125px;" > 
+            <input class="about-table-input" type="text" name="picup01"placeholder="서울" style="margin-left: 10px; width: 100px; height: 20px;"/>
+            <img style="margin-left: 10px" src="../img/btn_search.gif"href="#"/>
+            <input type="text"name="picup02"placeholder="강남구"style="width: 100px; height: 20px;"/>
+            <img style="margin-left: 10px" src="../img/btn_search.gif" />
+            <input type="text" name="picup03"placeholder="논현동"style="width: 100px; height: 20px;"/>
+            <img style="margin-left: 10px" src="../img/btn_search.gif" />
           </td>
-          <td style="border: 1px solid red" align="center">
-            <input
-              type="text"
-              name="picup02"
-              placeholder="강남구"
-              style="width: 110px; height: 20px"
-            /><img style="margin-left: 10px;" src="../img/btn_search.gif" />
+          <!-- <td align="center">
+            <!-- <input type="text"name="picup02"placeholder="강남구"style="width: 100px; height: 20px;"/>
+            <img style="margin-left: 10px" src="../img/btn_search.gif" /> -->
           </td>
-          <td style="border: 1px solid red" align="center">
-            <input
-              type="text"
-              name="picup03"
-              placeholder="논현동"
-              style="width: 110px; height: 20px"
-            /><img style="margin-left: 10px;" src="../img/btn_search.gif" />
-          </td>
+          <td align="center">
+            <!-- <input type="text" name="picup03"placeholder="논현동"style="width: 100px; height: 20px;"/>
+            <img style="margin-left: 10px" src="../img/btn_search.gif" /> -->
+          </td> 
         </tr>
         <tr>
           <td>픽업 지점</td>
-          <td colspan="3"><input type="text" style="margin-left: 50px; width: 210px; height: 20px"><img style="margin-left: 10px;" src="../img/btn_search.gif" href="#" /></td>
+          <td colspan="3">
+            <input type="text"style="margin-left: 10px; width: 125px; height: 20px"/>
+            <img style="margin-left: 10px"src="../img/btn_search.gif" href="#"/>
+          </td>
         </tr>
-        <tr style="border: 1px solid red">
-          <td style="border: 1px solid red" align="center">픽업예약시간</td>
-          <td style="border: 1px solid red" colspan="3">
-            <select name="picTime" style="margin-left: 70px; width: 110px">
+        <tr >
+          <td align="center" rowspan="">픽업예약시간</td>
+          <td  colspan="3">
+            <select name="picTime" style="margin-left: 10px; width: 110px">
               <option value="00" selected>00</option>
               <option value="01" selected>01</option>
               <option value="02" selected>02</option>
@@ -165,8 +153,13 @@
               <option value="22" selected>22</option>
               <option value="23" selected>23</option>
               <option value="24" selected>24</option>
-              </select>&nbsp; 시
-            <select name="picTime02" style="margin-left: 70px; width: 110px" >
+              </select
+            >&nbsp; 시
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <select name="picTime02" style="margin-left: 70px; width: 110px; margin-bottom: 10px;">
               <option value="00" selected>00</option>
               <option value="10" selected>10</option>
               <option value="20" selected>20</option>
@@ -175,25 +168,18 @@
               <option value="50" selected>50</option></select
             >&nbsp; 분
           </td>
-          <!-- </td>
-                    <td style="border: 1px solid red;"><select name="picTime02" style="width: 110px;">
-                        <option value="00" selected>00</option>
-                        <option value="10" selected>10</option>
-                        <option value="20" selected>20</option>
-                        <option value="30" selected>30</option>
-                        <option value="40" selected>40</option>
-                        <option value="50" selected>50</option>
-                    </select>&nbsp; 분</td> -->
+          <tr>
+            <td style="border-top: 3px solid red;" colspan="4"></td>
+          </tr>
         </tr>
-        <tr style="border: 1px solid red" align="center">
-          <td style="border: 1px solid red" colspan="2" style="height: 80px">
-            <button type="button" style="height: 50px; width: 200px" href="#">
+        <tr align="center">
+          <td colspan="2" style="width: 100px; height: 50px; margin-top: 10px;">
+            <button type="button" href="#" style="width: 100px; border-radius: 10px;">
               예약
             </button>
-            
           </td>
-          <td style="border: 1px solid red" colspan="2" style="height: 80px">
-            <button type="button" style="height: 50px; width: 200px" href="#">
+          <td colspan="2" style="height: 50px; width: 100px;  ">
+            <button type="button"  href="#" style="width:100px; border-radius: 10px;">
               예약 확인
             </button>
           </td>
