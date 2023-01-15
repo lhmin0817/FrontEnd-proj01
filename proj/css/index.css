@@ -20,7 +20,9 @@ a:link, a:visited, a:hover, a:active{
     clear: both;
 }
 header{
+    width: 100%;
     height: 150px;
+    position: fixed;
 }
 header #top{
     width: 990px;
@@ -33,7 +35,6 @@ header #logo{
 header #search{
     float: left;
     font-size: 12px; font-family: "Sans-serif";
-    color: #96c11f;
     margin: 60px 0 0 190px;
 }
 header #search-title{
@@ -77,32 +78,10 @@ header #top-menu li{
     display: inline;
     margin-left: 10px;
 }
-header #main-menu{
-    height: 38px;
-    margin-top: 15px;
-    background-color: #4e4c4d;
-    border: 1px solid red;
-}
-
-header #main-menu ul{
-    width: 100%;
-    margin: auto;
-    padding-top: 12px;
-    text-align: center;
-}
-header #main-menu li{
-    display: none;
-    margin: 0 70px;
-}
-header #main-menu a:link{
-    color: #ffffff;
-}
-#main-menu a:visited {
-    color: #ffffff;
-}
-#main-menu a:hover{
-    color: #ffffff;
-}
-#main-menu a:active{
-    color: #ffffff;
-}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 8px 12px;
+  }

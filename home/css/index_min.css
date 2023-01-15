@@ -1,0 +1,84 @@
+
+header div nav{
+    display: none;
+}
+header div nav .top-menu i{
+    display: inline-block;
+}input[id="menuicon"]{
+    display: none;
+}
+input[id="menuicon"]+label{
+    display: block;
+    margin: 3rem 2rem 0 0;
+    width: 3rem; height: 2rem;
+    position: fixed;
+    right: 0; top:calc(50% -25px);
+    transition: all .35s;
+    cursor: pointer;
+}
+input[id="menuicon"]:checked+label{
+    z-index: 2;
+    right: 15rem;
+}
+input[id="menuicon"]+label span{
+    display: block;
+    position: absolute;
+    width: 100%; height: .25rem;
+    border-radius: 1.5rem;
+    background-color: #000;
+    transition: all .35s;
+}
+input[id="menuicon"]+label span:nth-child(1){
+    top:0;
+}
+input[id="menuicon"]+label span:nth-child(2){
+    top:50%;
+    transform: translateY(-50%);
+}
+input[id="menuicon"]+label span:nth-child(3){
+    bottom: 0;
+}
+input[id="menuicon"]:checked+label span:nth-child(1){
+    top:50%;
+    transform:translateY(-50%) rotate(45deg);
+}
+input[id="menuicon"]:checked+label span:nth-child(2){
+    opacity: 0;
+}
+input[id="menuicon"]:checked+label span:nth-child(3){
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+div[class="sidebar"]{
+    width: 15rem; height: 100%;
+    background-color: #222;
+    position: fixed;
+    top: 0; right: -150rem;
+    z-index: 1; 
+    transition: all .35s;
+}
+input[id="menuicon"]:checked+label+div{
+    right: 0;
+}
+header .sidebar ul li{
+    display: block;
+    width: 100%;
+    height: 2rem;
+    padding-top: 25px;
+}
+header .top-menu-min{
+    /* padding-top:300px; */
+    margin: 0 auto;
+    display: inline-block;
+    color: white;
+}
+header .sidebar ul li a{
+    font-size: 16px;
+    color: #f2f0f0;
+}
+header .sidebar .accordion{
+    display: block;
+}
+header .acco-menu-sub{
+    display: none;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index_min.css" media="all and (max-width:1100px">
+    
+    <script>
+        // $(".acco-menu").click(function(){
+        //     $(this).next().slideToggle();
+        //     $(this).next().siblings(".acco-menu-sub").slideUp();
+        // });
+        $(".accordion").accordion();
+    </script>
+    
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><a href="index.html"><img src="img/logo.png" alt="home" width="100px" height="100px"></a></h1>
+            <nav class="navber">
+                <ul>
+                    <li><a href="#">COFFEE</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">STORE</a></li>
+                    <li><a href="#">WHAT'S NEW</a></li>
+                </ul>
+                <ul class="top-menu">
+                    <li><a href="#"><i class="xi-user"></i> Sign in</a></li>
+                    <li><a href="#">My Coffe</a></li>
+                    <li><a href="#">검색</a></li>
+                </ul>
+            </nav>
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="sidebar">
+                <div class="accordion">
+                    <h3 class="acco-menu"><a href="#">Cooffe</a></h3>
+                    <div class="acco-menu-sub">
+                        <p><a href="#">###</a></p>
+                        <p><a href="#">###</a></p>
+                    </div>
+                    <h3 class="acco-menu"><a href="#">MENU</a></h3>
+                    <div class="acco-menu-sub">
+                        <p><a href="#">###</a></p>
+                        <p><a href="#">###</a></p>
+                    </div>
+                    <h3 class="acco-menu"><a href="#">STORE</a></h3>
+                    <div class="acco-menu-sub">
+                            <p><a href="#">###</a></p>
+                            <p><a href="#">###</a></p>
+                    </div>
+                    <h3 class="acco-menu"><a href="#">WHAT'S NEW</a></h3>
+                    <div class="acco-menu-sub">
+                            <p><a href="#">###</a></p>
+                            <p><a href="#">###</a></p>
+                    </div>
+                </div>
+                        </div>
+                        <!-- <ul>
+                    <li><a role="button" class="role-but">COFFEE</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">STORE</a></li>
+                    <li><a href="#">COFFEE</a></li>
+                    <li><a href="#">WHAT'S NEW</a></li>
+                </ul> -->
+                    </div>
+                </div>
+    </header>
+
+</body>
+</html>
