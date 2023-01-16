@@ -1,10 +1,12 @@
 
+
 header div nav{
     display: none;
 }
 header div nav .top-menu i{
     display: inline-block;
-}input[id="menuicon"]{
+}
+input[id="menuicon"]{
     display: none;
 }
 input[id="menuicon"]+label{
@@ -72,13 +74,35 @@ header .top-menu-min{
     display: inline-block;
     color: white;
 }
-header .sidebar ul li a{
+/* header .sidebar ul li a{
     font-size: 16px;
     color: #f2f0f0;
-}
-header .sidebar .accordion{
+} */
+header .sidebar .accordion .acco-menu{
     display: block;
+    color: #f2f0f0
 }
 header .acco-menu-sub{
     display: none;
 }
+header .sidebar .accordion{
+    margin: 100px 0 0 50px;
+    padding: 10px;
+    display: block;
+    color: #f2f0f0;
+}
+header .sidebar .accordion a:link, a:visited, a:hover, a:active{
+    text-decoration-line: none;
+    color: #f2f0f0;
+}
+header .top-menu {
+    /* margin: 350px 0 0 0; */
+    font-size: 14px;
+    position: fixed;
+    
+}
+header .top-menu a{
+    text-decoration-line: none;
+    
+}
+
