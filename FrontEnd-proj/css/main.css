@@ -1,21 +1,55 @@
-section #about{
-    background-color: #444444
+#main #main-img{
+    width: 50%;
 }
-section .about-table{
-    width: 300px;
-    border: 1px;
-    height: 500px;
-    background-color: #8c8080;
-    border-radius: 80px / 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+#main #main-menu .larest{
+    border-bottom: 2px solid rgb(146, 134, 134);
+}
+#main #main-menu .larest h3{
+    text-align: center;
+}
+#main #main-menu .larest h5{
+    /* border: 1px solid red; */
+    float: right;
+    width: 50px;
+    margin-top: 0;
+}
+#main #main-menu{
+    /* margin: 30px 0 0 0; */
+    float: right;
     border: 1px solid red;
+    background-color: antiquewhite;
+    width: 50%; height: 300px;
 }
-section .about-table-td01{
-    width: 150px; height: 150px;
-    border: 1px solid red
-   
+#main #main-menu .data{
+    float: left;
 }
-section .about-table-input{
-    width: 60px; height: 20px;
+#main #main-menu .latest1{
+    float: left;
+}
+#main #main-menu .more{
+    float: right;
+}
+#main #main-menu .list{
+    border-bottom: 1px solid red;
+    float: right;
+}
+#main #main-menu .larest-1 li{
+    padding: 10px 0 10px 0;
+}
+#main #main-menu .larest-2 li{
+    padding: 10px 0 10px 0;
+}
+#main #main-menu .list div{
+    float: left;
+}
+#main #main-menu .sub{
+    margin: 0 60px 0 0;
+    width: 100%; 
+    /* border: 1px solid red; */
+    float: left;
+}
+#main .main-img02{
+    margin-top: 2rem;
+    /* float: right; */
+    position: relative;
 }
