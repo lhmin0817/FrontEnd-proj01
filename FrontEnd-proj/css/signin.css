@@ -107,6 +107,7 @@ div[class="sidebar"]{
     transition: all .35s;
 }
 
+
 .form-control-dark {
     border-color: var(--bs-gray);
   }

@@ -1,116 +1,136 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>FrontEnd-proj</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!--SimpleLightbox plugin CSS -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
-      id="mainNav"
-    >
-      <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top">Coffee</a>
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto my-2 my-lg-0">
-            <li class="nav-item"><a class="nav-link" href="about.html">예약</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">공지사항</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#mypage">주문내역</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">이벤트</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="sign_in.html">로그인</a></li>
-          </ul>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>FrontEnd-proj</title>
+  <script src="jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="#page-top">Coffee</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <li class="nav-item"><a class="nav-link" href="coffee.html">Coffee</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mypage">STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="freeboard-list.html">Announcement</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="sign_in.html">Sign in</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">My Coffee</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Masthead-->
+  <header class="masthead">
+    <div class="container px-4 px-lg-5 h-100">
+      <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-8 align-self-end">
+          <h1 class="text-white font-weight-bold">Coffee</h1>
+          <hr class="divider" />
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 mb-5">
+            <!-- 예약을 해서 원하는 시간에 픽업을 할 수 있습니다. -->
+          </p>
+          <a class="btn btn-primary btn-xl" href="coffee.html">커피 상품</a>
         </div>
       </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-      <div class="container px-4 px-lg-5 h-100">
-        <div
-          class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
-        >
-          <div class="col-lg-8 align-self-end">
-            <h1 class="text-white font-weight-bold">Coffee</h1>
-            <hr class="divider" />
-          </div>
-          <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 mb-5">
-              예약을 해서 원하는 시간에 픽업을 할 수 있습니다.
-            </p>
-            <a class="btn btn-primary btn-xl" href="about.html">예약</a>
-          </div>
+    </div>
+  </header>
+  <!-- Main-->
+  <main>
+    <div id="carouselExampleControls" class="carousel slide w-75 m-auto carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/coffee-gd47f6ed48_640.jpg" class="d-block w-100" style="width: 300px; height: 500px;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/coffee-geb4913260_640.jpg" class="d-block w-100"  style="width: 300px; height: 500px;"  alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/coffee-gf382be36e_640.jpg" class="d-block w-100"  style="width: 300px; height: 500px;"  alt="...">
         </div>
       </div>
-    </header>
-    <!-- Main-->
-    <section id="main">
-      <img src="assets/img/5.jpg" class="main-img">
-      <section id="main-menu">
-          <article id="notice">
-              <div class="larest">
-                <h3>공지사항</h3><h5><a href="#">more</a></h5>
-                  <!-- <img class="latest1" src="assets/img/latest1.gif"> -->
-                  <!-- <img class="more" src="assets/img/more.gif" href="#"> -->
-                  <div class="clear"></div>
-              </div>
-              <div class="larest-1">
-                  <ul class="list">
-                      <li>
-                          <div class="sub">공지사항 입니다.</div>
-                          <div class="data">2023-01-20</div>
-                          <div class="clear"></div>
-                      </li>
-                  </ul>
-              </div>
-          </article>
-    </section>
-    <section id="main02">
-      <img src="assets/img/1.jpg" class="main-img02">
-    </section>
-    <!-- Footer-->
-    <footer class="bg-light py-5">
-      <div class="container px-4 px-lg-5">
-        <div class="small text-center text-muted">
-          Copyright &copy; 2022 - Company Name
-        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1" style="margin: 0 0 30px 300px;">Coffee 소개</h2>
+      <p class="lead" style="margin: 0 0 30px 300px;">다양한 메뉴를 Coffee에서 즐겨보세요
+        <p style="margin: 0 0 30px 300px;">특별함을 경험할 수 있는 최상의 선택 음료</p>
+        <p style="margin: 0 0 30px 300px;">커피 와 완벽한 어울림을 자랑하는 푸드</p>
+          <p style="margin: 0 0 30px 300px;"> 다양한 시도와 디자인 으로 가치를 더하는 상품</p>
+            <p style="margin: 0 0 30px 300px;"> 소중한 사람에게 마음을 전하느 가장 좋은 방법</p> 
+      </p>
+    </div>
+    <div class="col-md-5">
+      <img src="assets/img/hd-wallpaper-g97328badc_640.jpg" style="width: 500px; height: auto; margin-top: 10px;">
+     
+    </div>
+  </div>
+  <hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1" style="margin: 0 0 30px 300px;">전국 어디에서나 커피와 함께</h2><p style="margin: 0 0 30px 300px;">커피와 함께 커피 한잔의 여유를 가져보세요.</p>
+      <p class="lead" style="margin: 0 0 30px 300px;">나의 취향이 머무는 곳, 스타벅스 리저브 매장</p>
+      <p style="margin: 0 0 30px 300px;">더욱 편리하게 스타벅스를 만나보는 드라이브 스루 매장</p>
+      <p style="margin: 0 0 30px 300px;">함께해서 더 따뜻한 지역사회 소통 공간, 커뮤니티 스토어까지</p><p></p>
+      <p style="margin: 0 0 30px 300px;">다양한 스타벅스 매장이 여러분을 기다립니다.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img src="assets/img/Coffee beans sketch illustrations set.jpg" style="width: 500px; height: auto; margin: 0 0 30px 300px;">
+      
+
+    </div>
+  </div>
+
+  
+  <!-- Footer-->
+  <footer class="bg-light py-5">
+    <div class="container px-4 px-lg-5">
+      <div class="small text-center text-muted">
+        Copyright &copy; 2022 - Company Name
       </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>

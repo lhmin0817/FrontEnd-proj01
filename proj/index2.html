@@ -1,138 +1,109 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!doctype html>
+<html lang="en" class="h-100">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Cover Template · Bootstrap v5.3</title>
+    <link rel="stylesheet" type="text/css" href="css/cover.css">
+    <link rel="stylesheet" type="text/css" href="css/main-home-header.css">
+    <link rel="stylesheet" type="text/css" href="css/main-home.css">
+    <link rel="stylesheet" type="text/css" href="css/main-home-header.css">
+    <script src="js/scripts.js"></script>
 
-    <title>Document</title>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar">
+<body class="d-flex h-100 text-center text-bg-dark">
 
-            <div class="navbar__logo">
-                <i class="fas fa-blog"></i>
-                <a href="">coffe</a>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Coffee</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index2.html">Home</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="#">Login</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="#">Sing-up</a>
+                </nav>
             </div>
+        </header>
 
-            <ul class="navbar__menu">
-                <li><a href="#">상품</a></li>
-                <li><a href="#">G</a></li>
-                <li><a href="#">예약 확인</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">이벤트</a></li>
-            </ul>
-            <ul class="login">
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">회원가입</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <div class="main">
-            <section id="about">
-                <table class="about-table" align="center">
-                    <tr>
-                        <td align="center" colspan="4">coffe 예약</td>
-                    </tr>
-                    <tr>
-                        <td class="about-table-td-a" style="width: 125px; height: 200px;">
-                            픽업 지역
-                        </td>
-                        <td align="center" style="width: 125px;">
-                            <input class="about-table-input" type="text" name="picup01" placeholder="서울"
-                                style="margin-left: 10px; width: 100px; height: 20px;" />
-                            <img style="margin-left: 10px" src="../img/btn_search.gif" href="#" />
-                            <input type="text" name="picup02" placeholder="강남구" style="width: 100px; height: 20px;" />
-                            <img style="margin-left: 10px" src="../img/btn_search.gif" />
-                            <input type="text" name="picup03" placeholder="논현동" style="width: 100px; height: 20px;" />
-                            <img style="margin-left: 10px" src="../img/btn_search.gif" />
-                        </td>
-                        <!-- <td align="center">
-                      <!-- <input type="text"name="picup02"placeholder="강남구"style="width: 100px; height: 20px;"/>
-                      <img style="margin-left: 10px" src="../img/btn_search.gif" /> -->
-                        </td>
-                        <td align="center">
-                            <!-- <input type="text" name="picup03"placeholder="논현동"style="width: 100px; height: 20px;"/>
-                      <img style="margin-left: 10px" src="../img/btn_search.gif" /> -->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>픽업 지점</td>
-                        <td colspan="3">
-                            <input type="text" style="margin-left: 10px; width: 125px; height: 20px" />
-                            <img style="margin-left: 10px" src="../img/btn_search.gif" href="#" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center" rowspan="">픽업예약시간</td>
-                        <td colspan="3">
-                            <select name="picTime" style="margin-left: 10px; width: 110px">
-                                <option value="00" selected>00</option>
-                                <option value="01" selected>01</option>
-                                <option value="02" selected>02</option>
-                                <option value="03" selected>03</option>
-                                <option value="04" selected>04</option>
-                                <option value="05" selected>05</option>
-                                <option value="06" selected>06</option>
-                                <option value="07" selected>07</option>
-                                <option value="08" selected>08</option>
-                                <option value="09" selected>09</option>
-                                <option value="10" selected>10</option>
-                                <option value="11" selected>11</option>
-                                <option value="12" selected>12</option>
-                                <option value="13" selected>13</option>
-                                <option value="14" selected>14</option>
-                                <option value="15" selected>15</option>
-                                <option value="16" selected>16</option>
-                                <option value="17" selected>17</option>
-                                <option value="18" selected>18</option>
-                                <option value="19" selected>19</option>
-                                <option value="20" selected>20</option>
-                                <option value="21" selected>21</option>
-                                <option value="22" selected>22</option>
-                                <option value="23" selected>23</option>
-                                <option value="24" selected>24</option>
-                            </select>&nbsp; 시
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <select name="picTime02" style="margin-left: 70px; width: 110px; margin-bottom: 10px;">
-                                <option value="00" selected>00</option>
-                                <option value="10" selected>10</option>
-                                <option value="20" selected>20</option>
-                                <option value="30" selected>30</option>
-                                <option value="40" selected>40</option>
-                                <option value="50" selected>50</option>
-                            </select>&nbsp; 분
-                        </td>
-                    <tr>
-                        <td style="border-top: 3px solid red;" colspan="4"></td>
-                    </tr>
-                    </tr>
-                    <tr align="center">
-                        <td colspan="2" style="width: 100px; height: 50px; margin-top: 10px;">
-                            <button type="button" href="#" style="width: 100px; border-radius: 10px;">
-                                예약
-                            </button>
-                        </td>
-                        <td colspan="2" style="height: 50px; width: 100px;  ">
-                            <button type="button" href="#" style="width:100px; border-radius: 10px;">
-                                예약 확인
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </section>
-            <div class="clear"></div>
-        </div>
+        <main class="px-3">
+            <h1>Coffee</h1>
+            <p class="lead">원하는</p>
+            <p class="lead">
+                <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+            </p>
+        </main>
 
-    </section>
+        <footer class="mt-auto text-white-50">
+            <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+                    href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+        </footer>
+    </div>
+
+
+
 </body>
 
 </html>
